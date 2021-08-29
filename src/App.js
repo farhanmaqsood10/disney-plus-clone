@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Detail from "./components/Detail";
 import Login from "./components/Login";
+
 import {
   BrowserRouter as Router,
   Switch,

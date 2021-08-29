@@ -27,10 +27,10 @@ function Detail() {
                 </GroupWatchButton>
             </Controls>
             <SubTitle>
-            2018 Lorem ipsum, dolor sit amet consectetur adipisicing.
+            2018 • 7m • Family, Fantasy, Kids, Animation
             </SubTitle>
             <Discription>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero explicabo inventore culpa fugiat ratione consequuntur voluptates nihil autem quisquam omnis. Incidunt earum, delectus autem natus aliquid quas sunt enim nihil! Ex consequatur blanditiis suscipit doloribus modi aperiam inventore labore adipisci non illo.
+            A Chinese mom who’s sad when her grown son leaves home gets another chance at motherhood when one of her dumplings springs to life. But she finds that nothing stays cute and small forever.
             </Discription>
         </Container>
     )
@@ -57,6 +57,7 @@ const Background = styled.div`
         width: 100%;
         height: 100%
         object-fit: fixed;
+        opacity: 0.5;
     }
 `
 const ImageTitle = styled.div`
