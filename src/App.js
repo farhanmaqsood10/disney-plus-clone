@@ -3,16 +3,10 @@ import { Counter } from './features/counter/Counter';
 import './App.css';
 import Header from './components/Header';
 import Home from './components/Home';
-import Detail from "./components/Detail";
-import Login from "./components/Login";
+import Detail from './components/Detail';
+import Login from './components/Login';
 
-
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -21,16 +15,16 @@ function App() {
         <Header />
         <Switch>
           <Route path="/login">
-            <Login/>
+            <Login />
           </Route>
-          <Route path="/detail">
-            <Detail/>
+          <Route path="/detail/:id">
+            <Detail />
           </Route>
           <Route path="/">
-            <Home/>
+            <Home />
           </Route>
         </Switch>
-      </Router> 
+      </Router>
     </div>
   );
 }
